@@ -7,3 +7,5 @@ node() {
     echo 'Hello world!'
 
 }
+
+stage('Finished')
