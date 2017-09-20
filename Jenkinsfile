@@ -12,9 +12,3 @@ node() {
     sh "git log ${gitCommit}"
 
 }
-
-
-
-// dev2
-
-// add another line
