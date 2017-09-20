@@ -1,4 +1,4 @@
-stage('Initialise')
+
 
 node() {
 
@@ -13,7 +13,7 @@ node() {
 
 }
 
-stage('Finished')
+
 
 // dev2
 
