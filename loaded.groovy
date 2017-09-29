@@ -1,7 +1,7 @@
 def message = "Hello Word!"
 
 def hello() {
-    println message
+    println this.message
 }
 
 return this
