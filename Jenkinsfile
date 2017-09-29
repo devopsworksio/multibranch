@@ -1,10 +1,11 @@
-
-
 node() {
     def somename
     somename = load 'loaded.groovy'
 
-    somename.hello()
-
+    try {
+        somename.hello()
+    } catch (error) {
+        println error
+    }
 
 }
