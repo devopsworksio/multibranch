@@ -1,4 +1,7 @@
 node() {
+
+    checkout scm
+
     def somename
     somename = load 'loaded.groovy'
 
